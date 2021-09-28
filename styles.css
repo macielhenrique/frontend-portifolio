@@ -153,3 +153,24 @@ iframe{
     position: absolute;
     top: 5%;
 }
+
+
+@media only screen and (max-width:600px)  {
+    .cards{
+        grid-template-columns: 1fr; 
+        padding-bottom: 40px;
+    }
+    .links{
+        margin-bottom: 20px;
+    }
+    .links a{
+        font-size: 1.2rem;
+    }
+
+    #links-footer a{
+        font-size: 1.2rem;
+    }
+
+    
+  
+}
